@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-family: 'Rubik';
+    user-select: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.adobe{
+    padding-top: 150px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    padding-left: 90px;
+}
+.header{
+    display: flex;
+    justify-content: stretch;
+    position: absolute;
+    width: 100%;
+}
+.pumpkin2{
+    width: 200px;
+    height: 900px;
+    z-index: -1;
+    background-color:  hsl(263, 78%, 95%);
+    margin-top: 200px;
+    border-radius: 300px 0px 0 0;
+    margin-left: auto;
+}
+ .pumpkin{
+    height: 1000px;
+    background-image: linear-gradient( to top, hsl(264, 100%, 61%),hsl(293, 100%, 63%)    );
+    width: 300px;
+    border-radius: 0 0 300px 300px;
+    margin-bottom: 100px;
+    z-index: -1;
+}   
+.whitech{
+    background-color: white;
+    height: 740px;
+    width: 340px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.ash{
+    background-color: hsl(270, 20%, 96%);
+    height: 720px;
+    width: 320px;
+    border-radius: 20px;
+    position: relative;
+}
+.purple{
+    background-image: linear-gradient( to right, hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%));
+    height: 80px;
+    width: 320px;
+    border-radius: 20px 20px 10px 10px;
+}
+.whitetop{
+    background-color: white;
+    padding: 12px;
+    width: 150px;
+    border-radius: 0 0 12px 12px;
+    margin: auto;
+}
+#arrow{
+    border: white solid;
+    display: inline-block;
+    padding: 4px;
+    border-width: 3px 3px 0 0;
+    rotate: -140deg;
+}
+.content img{
+    width: 30px;
+    border: white solid 1px;
+    border-radius: 25px;
+    margin-right: 13px;
+    height: 30px;
+    margin-top: 4px;
+}
+.dot{
+    padding: 1px;
+    border: solid white;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 100px;
+}
+.user{
+    display: inline-flex;
+}
+.content{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.arrow{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.content small{
+    color: hsl(270, 20%, 96%);
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 400;
+}
+.content h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+#dot{
+    margin: 20px 15px 0 0;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+}
+.grey{
+    background-color:  hsl(289, 26%, 88%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px 15px 10px 15px;
+    margin: 10px;
+
+}
+.grey p{
+    font-size: small;
+    color:  hsl(289, 100%, 72%);
+    font-weight: 400;
+}
+.dogs img{
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.dogs{
+    margin: 10px;
+    float: right;
+}
+#section::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.deep{
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px 10px 5px 15px;
+    margin: 10px;
+    float: right;
+}
+.deep p{
+    font-weight: 400;
+    font-size: smaller;
+}
+#deeps{
+    float: right;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px 10px 5px 15px;
+    width: fit-content;
+}
+#deeps p{
+    font-size: smaller;
+    font-weight: 400;
+}
+.double{
+    background-image: linear-gradient( to right,
+    hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    padding: 15px;
+    display: inline-flex;
+    border-radius: 15px 15px 10px 15px;
+    margin: 10px;
+    width: 250px;
+    color: white;
+    font-size: smaller;
+    font-weight: 500;
+}
+#fade{
+    border-radius: 100px;
+    padding: 7px;
+    border: white solid;
+    margin-right: 10px;
+    height: 2;
+    width: 15;
+    opacity: 0.3;
+}
+#fess{
+    margin-left: 45px;
+}
+#top{
+    margin-left: 75px;
+}
+.message{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 20px;
+    /* width: fit-content; */
+}
+.arrow2{
+    border: white solid;
+    display: inline-block;
+    padding: 4px;
+    border-width: 3px 3px 0 0;
+    rotate: 40deg;
+    margin-top: 10px 5px 10px 2px;
+}
+.part{
+    background-color: black;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+}
+#message{
+    color:  hsl(267, 9%, 79%);
+    opacity: 0.7;
+    padding: 5px;
+}
+.section h1{
+    font-size: x-large;
+    font-weight: 700;
+}
+.section p{
+    font-size:medium;
+    font-weight: 500;
+    color: hsl(270, 2%, 44%);
+    margin-top: 20px;
+    word-spacing: 2px;
+}
+.section{
+    width: fit-content;
+    padding: 20px;
+    height: fit-content;
+    margin-top: 250px;
+    margin-left: 100px;
+}
